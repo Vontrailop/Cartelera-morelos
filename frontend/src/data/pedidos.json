@@ -1,0 +1,64 @@
+[
+  {
+    "id": "PED001",
+    "cliente": "Carlos Gomez",
+    "fecha": "2024-07-15",
+    "estado": "Pendiente",
+    "servicios": [
+      { "nombre": "Alquiler de Sonido", "cantidad": 1, "precio": 500 },
+      { "nombre": "Iluminación LED", "cantidad": 2, "precio": 300 }
+    ],
+    "total": 1100,
+    "cotizacionId": "COT001",
+    "contratoId": null
+  },
+  {
+    "id": "PED002",
+    "cliente": "Ana Torres",
+    "fecha": "2024-07-10",
+    "estado": "Aprobado",
+    "servicios": [
+      { "nombre": "Escenario Modular", "cantidad": 1, "precio": 800 }
+    ],
+    "total": 800,
+    "cotizacionId": "COT002",
+    "contratoId": "CON001"
+  },
+  {
+    "id": "PED003",
+    "cliente": "Sofia Ramirez",
+    "fecha": "2024-07-01",
+    "estado": "Rechazado",
+    "servicios": [
+      { "nombre": "Proyector HD", "cantidad": 1, "precio": 250 }
+    ],
+    "total": 250,
+    "cotizacionId": "COT003",
+    "contratoId": null
+  },
+  {
+    "id": "PED004",
+    "cliente": "Carlos Gomez",
+    "fecha": "2024-06-28",
+    "estado": "En Proceso",
+    "servicios": [
+      { "nombre": "Pantalla Gigante", "cantidad": 1, "precio": 1200 },
+      { "nombre": "Sistema de Microfonía", "cantidad": 1, "precio": 400 }
+    ],
+    "total": 1600,
+    "cotizacionId": "COT004",
+    "contratoId": "CON002"
+  },
+  {
+    "id": "PED005",
+    "cliente": "Ana Torres",
+    "fecha": "2024-06-20",
+    "estado": "Completado",
+    "servicios": [
+      { "nombre": "Tarima para Eventos", "cantidad": 1, "precio": 600 }
+    ],
+    "total": 600,
+    "cotizacionId": "COT005",
+    "contratoId": "CON003"
+  }
+]

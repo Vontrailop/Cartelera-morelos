@@ -1,0 +1,37 @@
+[
+  {
+    "id": "SERV001",
+    "nombre": "Alquiler de Sonido Profesional",
+    "precio": 500
+  },
+  {
+    "id": "SERV002",
+    "nombre": "Iluminación LED para Eventos",
+    "precio": 300
+  },
+  {
+    "id": "SERV003",
+    "nombre": "Escenario Modular Personalizable",
+    "precio": 800
+  },
+  {
+    "id": "SERV004",
+    "nombre": "Proyector HD y Pantalla",
+    "precio": 250
+  },
+  {
+    "id": "SERV005",
+    "nombre": "Sistema de Microfonía Inalámbrica",
+    "precio": 400
+  },
+  {
+    "id": "SERV006",
+    "nombre": "Pantalla Gigante LED",
+    "precio": 1200
+  },
+  {
+    "id": "SERV007",
+    "nombre": "Tarima para Eventos",
+    "precio": 600
+  }
+]

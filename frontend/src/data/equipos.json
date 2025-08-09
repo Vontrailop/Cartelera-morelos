@@ -1,0 +1,32 @@
+[
+  {
+    "id": "EQ001",
+    "nombre": "Sistema de Sonido JBL",
+    "tipo": "Audio",
+    "estado": "Disponible"
+  },
+  {
+    "id": "EQ002",
+    "nombre": "Luces LED RGB",
+    "tipo": "Iluminación",
+    "estado": "En Uso"
+  },
+  {
+    "id": "EQ003",
+    "nombre": "Proyector Epson HD",
+    "tipo": "Video",
+    "estado": "En Mantenimiento"
+  },
+  {
+    "id": "EQ004",
+    "nombre": "Micrófono Inalámbrico Shure",
+    "tipo": "Audio",
+    "estado": "Disponible"
+  },
+  {
+    "id": "EQ005",
+    "nombre": "Pantalla de Proyección 100\"",
+    "tipo": "Video",
+    "estado": "Disponible"
+  }
+]

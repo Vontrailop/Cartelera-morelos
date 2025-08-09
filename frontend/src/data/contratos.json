@@ -1,0 +1,30 @@
+[
+  {
+    "id": "CON001",
+    "cliente": "Ana Torres",
+    "fechaFirma": "2024-07-10",
+    "estado": "Activo",
+    "documentoUrl": "https://www.africau.edu/images/default/sample.pdf"
+  },
+  {
+    "id": "CON002",
+    "cliente": "Carlos Gomez",
+    "fechaFirma": "2024-06-28",
+    "estado": "Activo",
+    "documentoUrl": "https://www.africau.edu/images/default/sample.pdf"
+  },
+  {
+    "id": "CON003",
+    "cliente": "Ana Torres",
+    "fechaFirma": "2024-06-20",
+    "estado": "Finalizado",
+    "documentoUrl": "https://www.africau.edu/images/default/sample.pdf"
+  },
+  {
+    "id": "CON004",
+    "cliente": "Sofia Ramirez",
+    "fechaFirma": "2024-07-05",
+    "estado": "Pendiente Firma",
+    "documentoUrl": "https://www.africau.edu/images/default/sample.pdf"
+  }
+]

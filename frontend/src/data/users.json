@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Torres",
+    "email": "admin@tblackbox.com",
+    "password": "admin123",
+    "rol": "Administrador"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos Gomez",
+    "email": "cliente@tblackbox.com",
+    "password": "cliente123",
+    "rol": "Cliente"
+  },
+  {
+    "id": 3,
+    "nombre": "Sofia Ramirez",
+    "email": "colaborador@tblackbox.com",
+    "password": "colaborador123",
+    "rol": "Colaborador"
+  }
+]
