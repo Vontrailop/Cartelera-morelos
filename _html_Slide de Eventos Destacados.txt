@@ -1,0 +1,112 @@
+﻿<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f4f4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#111717]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_319)">
+                  <path
+                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_319"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-[#111717] text-lg font-bold leading-tight tracking-[-0.015em]">Cartelera Morelos</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#111717] text-sm font-medium leading-normal" href="#">Events</a>
+              <a class="text-[#111717] text-sm font-medium leading-normal" href="#">Venues</a>
+              <a class="text-[#111717] text-sm font-medium leading-normal" href="#">Artists</a>
+              <a class="text-[#111717] text-sm font-medium leading-normal" href="#">About</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f4f4] text-[#111717] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#111717]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f4f4] text-[#111717] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#111717]" data-icon="UserCircle" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB4Udc4E4AvIZz0cAeMF66gSOcFfOvQQiueAzl_8pVqZJrQ8ORlIY78Ib71XWvkJLF3e8VuEaG7oguYnR0Wh4YZf3xgh_9iQlUFBWCDWNVn46NQ8l8FdVN_Vx-nlwZ8j8WVGcI9P8lL0AYO5KvOSnRZAfXSjyCt1jwy-n6zJJexmL7Fbtkr2rm7122D65P2B43QrKtOBhEt_VQVj0UQWTOZnDpdLcN_qxTvJy1TYbMapxUWi3yFAkTK29g_BUS7kbwthP3fvfO027c");'
+                  ></div>
+                  <div>
+                    <p class="text-[#111717] text-base font-medium leading-normal">Live Music Night</p>
+                    <p class="text-[#648785] text-sm font-normal leading-normal">Enjoy a night of live music with local bands.</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAEigg4CzKWIZvmvuFdBsB1y5VZ6jeEEBkEk86GJXDcet-WSIUlpKLhsgJkgMlso5ZnpSwg8v80nieg77TmIULRUpgZFZbFGDWuKk2lXIe44ELqG-iNymD10wnPgAo8_H5zKk97jdA9Pp3BgK2mHjDXhxuCKfbpqIu6q_V-xx53V5cvjNTYS-crMzFQ-2MaZ5T0hDDrlpwT0CW12OQbf3PC_rq_Pp_1jO7WJxQlGznWXc8ZOBN4-uwuWwH-b-TErpMmzFRDNVRaCqM");'
+                  ></div>
+                  <div>
+                    <p class="text-[#111717] text-base font-medium leading-normal">Art Exhibition</p>
+                    <p class="text-[#648785] text-sm font-normal leading-normal">Explore a collection of contemporary art from regional artists.</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBE65eLTDayrm_BCU3neayKTH1iVtxD5aTWU_wCjUxuok2qAkPbHZXUkLb8DqewdJb1-5k2Ei92FowWXNj_on1iICsUkHjd3DLMYOlk3HVtMyxc5f9Tx8fAtl1qsBmAo6igbkcHOcfOhyh_UKPrgfiJxQZpuZqOa0fpUgQFiwmgFQxX-XUsdd8HY5ZL79RR9Rj9rk7Bbj-gfWPIces-6b58KBhaFgLi0dX6yLCV65sxboNgHupveAX14J64Rt10tKpt1eBkisW3FiU");'
+                  ></div>
+                  <div>
+                    <p class="text-[#111717] text-base font-medium leading-normal">Theater Performance</p>
+                    <p class="text-[#648785] text-sm font-normal leading-normal">Experience a captivating theater performance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
