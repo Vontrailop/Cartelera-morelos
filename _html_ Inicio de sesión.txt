@@ -1,0 +1,75 @@
+﻿<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-white @[480px]:rounded-lg min-h-80"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCafDzIMQJrHt2ysVInjDyLg09Ufz8YT4b7PqsCHnI1h1z1wGV1Ltv3Z3u5RSywPlSuYieQUD85qyMhzfscZqHpdVbps5x6OhYyeA_FSpnIhYKxzYdbCOwGBMEdvxIOI-HqouKyenJ9hlytIpmrBCYfViiZZY0zkHIDZQLAQNggSa8XnIVwFBdGeR9CMbtxjXNY3bAmTViznlI1y8ySAbMQdCrxBLP6zFTaKPxHQho00aUqBAfDFY-S3r63A_7exuEHa0yTVBIy-64");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-[#111717] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Bienvenido a Cartelera Morelos</h2>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="Usuario o Correo"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111717] focus:outline-0 focus:ring-0 border-none bg-[#f0f4f4] focus:border-none h-14 placeholder:text-[#648785] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="Contraseña"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111717] focus:outline-0 focus:ring-0 border-none bg-[#f0f4f4] focus:border-none h-14 placeholder:text-[#648785] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-14 justify-between">
+              <p class="text-[#111717] text-base font-normal leading-normal flex-1 truncate">Recordarme</p>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#f0f4f4] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#1dd3ca]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+            <p class="text-[#648785] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline">¿Olvidaste tu contraseña?</p>
+            <div class="flex px-4 py-3">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 flex-1 bg-[#1dd3ca] text-[#111717] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Iniciar Sesión</span>
+              </button>
+            </div>
+            <p class="text-[#648785] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline">¿No tienes una cuenta? Regístrate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

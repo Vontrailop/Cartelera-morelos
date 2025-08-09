@@ -1,0 +1,130 @@
+﻿<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-white @[480px]:rounded-lg min-h-80"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCuPYsoJKra9z0S3qsJbEorLkx7AXZR7FCCVmOYW0vyBjolaPXm-TTvMgv6vnajX3YDvnj7WDJKGFN_IZjC-tIcK3ngmFaDwBC5Jy5ZjbI9d45DYlIuui1WvHAycZlV06_JVt08lK_SL0ILkL01H-s-qLmcHTTlPmCaaEjY8fGyUR204cuteinUjiPUMUoFiU5Upv0HrZLJr81Fu70Uy7XN8cumPkj06eOkmYK7HQ6oqkX3w4pIKvMjBplDCAUu_cjcOOW8muM7IX8");'
+                ></div>
+              </div>
+            </div>
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 items-center">
+                <div class="flex gap-4 flex-col items-center">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYycUgmpr4xizFAW8R7hZASX_rBREztAOueP99ewJcV9wGsGgE7Q-_VuL4IfTUrvi-7fKZ72lqO4sMwB64_QTlRYhVCsylcxlu1U7KjKPn0fnER8L1VJZ2AV6Cx6utiDmbJQb-YpVLAP2CCwq5ZmgZ7eULcX8KRINV0gQ44-yPO9FugkolHmtk_FSoX_vqFDUjH3p5O9v161x5xAjLtE5oPf-f8sS0BqLbRavr2U14pXCYH9POyaEQhB7mLO3PoXqaGYKCClu9FrY");'
+                  ></div>
+                  <div class="flex flex-col items-center justify-center justify-center">
+                    <p class="text-[#111717] text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Sofia Ramirez</p>
+                    <p class="text-[#648785] text-base font-normal leading-normal text-center">@sofia_ramirez</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#dce5e5] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#111717] text-[#111717] pb-[13px] pt-4" href="#">
+                  <p class="text-[#111717] text-sm font-bold leading-normal tracking-[0.015em]">Guardados</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#648785] pb-[13px] pt-4" href="#">
+                  <p class="text-[#648785] text-sm font-bold leading-normal tracking-[0.015em]">Comentarios</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#648785] pb-[13px] pt-4" href="#">
+                  <p class="text-[#648785] text-sm font-bold leading-normal tracking-[0.015em]">Ajustes</p>
+                </a>
+              </div>
+            </div>
+            <h3 class="text-[#111717] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Eventos Guardados</h3>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMJHTNpGGZ6cMy_ZfBr8wCqA2JSEuNsoa7f8o_r5p-MmJSm28jHeUdteFt7Vm_bxrrvB77e7xl2BS0YkGvmGoLIw4MjDfMZyCCnx1hSHGZ0Qw49qr_MqhzwQL-pbRbVORgFXg5jNQ2VaYPtb7Nns6GNthniqw4D2DSMLzezzwwk52BTqFw37eV-3DC-vXFkCWoLzIrMXs0yIkMwOkwVrMjUVGpg498obwA1VxA2BDZ2tCDoROrswvZINu1F9Wd5HfjTj5XspTUB7g");'
+                ></div>
+                <p class="text-[#111717] text-base font-medium leading-normal">Concierto de Verano</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDDbXOxYgA6ZvjBQ3CvsEO4TxNfaFiWQHBtvIn6JCVV8A_QOxFcOP9AjMEfSDwdIPrqNLgk_cArocF8UNczVytLntnPoH8DDRqkNc1JEycv38fYAci-Zo2NdRKSsA4DwkNt2Onozr7NU0-w-52i_SuDgLDCscuKQWN7bVKAT7Xj5Wwx7ecJvDRqhBckuZTn5MXqt7LkJ8x1SADAQDlBQU2Pc0A39q6S7PqQSlX2txGpgKCyIAHzUiXnn5RhaTD-rkHAr9eNI4OSdyM");'
+                ></div>
+                <p class="text-[#111717] text-base font-medium leading-normal">Festival de Globos Aerostáticos</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCHL6U_8UpqsEbSeT_wMHzM3cvcvmpevcdSXavcyUZQZKXetypxCRh7hzixd8y6PAcqX56ZLZ0YJjM1-DBFJCahEkqcn_8-FrGsYZbfb-G05zhqvmoARABD0SyDoocyqKzpBpMUYI7Jp93vTDWAViIxDJY57P0UMH-YG1h5TE3eo8nnccaiJgLdwYYCpVYswjj3GSLFhV7h0hg9BmHqlzkrJb1jNEiy6w_-rJFzRLBZo7z2IKa8b5xID9aAs7HY_fegOzmkNFNYvVc");'
+                ></div>
+                <p class="text-[#111717] text-base font-medium leading-normal">Noche de Museos</p>
+              </div>
+            </div>
+            <h3 class="text-[#111717] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Comentarios</h3>
+            <div class="flex w-full flex-row items-start justify-start gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbyw_suWc6E2MO-gJvugr1ZF6rEkIsT1wJTrKWHDpGr20SvYx-zOZS6i18Lqi-CMiUbVVKO4YeIdYtusBVhcssYwKjG1NQWHqgsPg88LqCAZxCW8sECWaeKgjD49Ssnh0Qz70tYixFwKK1pVtA6_EU2LD26MlED-awkvQYtTLk9ky2une43ITO_x01EaZqvxrEtJpEcBqoMQi8y84L3icCMBRmP83KFC8X4HkYRgvjRnGfV-vPbUcxCjKZRJiGem5mlfWlEavpenM");'
+              ></div>
+              <div class="flex h-full flex-1 flex-col items-start justify-start">
+                <div class="flex w-full flex-row items-start justify-start gap-x-3">
+                  <p class="text-[#111717] text-sm font-bold leading-normal tracking-[0.015em]">Sofia Ramirez</p>
+                  <p class="text-[#648785] text-sm font-normal leading-normal">2 semanas</p>
+                </div>
+                <p class="text-[#111717] text-sm font-normal leading-normal">Me encantó el concierto de verano!</p>
+              </div>
+            </div>
+            <h3 class="text-[#111717] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Ajustes</h3>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-14 justify-between">
+              <p class="text-[#111717] text-base font-normal leading-normal flex-1 truncate">Notificaciones</p>
+              <div class="shrink-0">
+                <label
+                  class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#f0f4f4] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#1dd3ca]"
+                >
+                  <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+                  <input type="checkbox" class="invisible absolute" />
+                </label>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-14 justify-between">
+              <p class="text-[#111717] text-base font-normal leading-normal flex-1 truncate">Idioma</p>
+              <div class="shrink-0"><p class="text-[#111717] text-base font-normal leading-normal">Español</p></div>
+            </div>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-14 justify-between">
+              <p class="text-[#111717] text-base font-normal leading-normal flex-1 truncate">Cerrar Sesión</p>
+              <div class="shrink-0">
+                <div class="text-[#111717] flex size-7 items-center justify-center" data-icon="ArrowRight" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <p class="text-[#648785] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">Cartelera Morelos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
