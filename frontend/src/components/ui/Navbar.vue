@@ -17,22 +17,37 @@ import { computed } from 'vue';
 import { useAuthStore } from '@/stores/auth';
 import { 
   HomeIcon, 
-  ClipboardListIcon, 
+  ClipboardDocumentListIcon, 
   DocumentTextIcon, 
-  CollectionIcon, 
+  RectangleStackIcon, 
   BellIcon, 
-  PlusCircleIcon 
+  PlusCircleIcon,
+  MapIcon,
+  BuildingOfficeIcon,
+  CalendarIcon,
+  PhotoIcon,
+  CurrencyDollarIcon,
+  TagIcon,
+  MapPinIcon
 } from '@heroicons/vue/24/outline';
 
 const authStore = useAuthStore();
 
 const menuItems = [
-  { name: 'Dashboard', path: '/dashboard', icon: HomeIcon, roles: ['Administrador', 'Cliente', 'Colaborador'] },
-  { name: 'Pedidos', path: '/pedidos', icon: ClipboardListIcon, roles: ['Administrador', 'Cliente', 'Colaborador'] },
+  { name: 'Dashboard', path: '/dashboard', icon: HomeIcon, roles: ['Administrador', 'Cliente', 'Colaborador', 'Gestor'] },
+  { name: 'Mapa', path: '/mapa', icon: MapIcon, roles: ['Administrador', 'Cliente', 'Colaborador', 'Gestor'] },
+  { name: 'Mapa de Navegación', path: '/mapa-navegacion', icon: MapPinIcon, roles: ['Administrador', 'Cliente', 'Colaborador', 'Gestor'] },
+  { name: 'Espacios Físicos', path: '/espacios-fisicos', icon: BuildingOfficeIcon, roles: ['Administrador', 'Gestor'] },
+  { name: 'Actividades', path: '/actividades', icon: CalendarIcon, roles: ['Administrador', 'Gestor', 'Cliente'] },
+  { name: 'Espacios Publicitarios', path: '/espacios-publicitarios', icon: PhotoIcon, roles: ['Administrador', 'Gestor', 'Cliente'] },
+  { name: 'Rentas Publicitarias', path: '/rentas-publicitarias', icon: DocumentTextIcon, roles: ['Administrador', 'Cliente'] },
+  { name: 'Pagos', path: '/pagos', icon: CurrencyDollarIcon, roles: ['Administrador', 'Cliente'] },
+  { name: 'Categorías', path: '/categorias', icon: TagIcon, roles: ['Administrador', 'Gestor'] },
+  { name: 'Pedidos', path: '/pedidos', icon: ClipboardDocumentListIcon, roles: ['Administrador', 'Cliente', 'Colaborador'] },
   { name: 'Crear Pedido', path: '/pedidos/crear', icon: PlusCircleIcon, roles: ['Cliente', 'Administrador'] },
   { name: 'Cotizaciones', path: '/cotizaciones', icon: DocumentTextIcon, roles: ['Administrador', 'Cliente'] },
   { name: 'Contratos', path: '/contratos', icon: DocumentTextIcon, roles: ['Administrador', 'Cliente'] },
-  { name: 'Equipos', path: '/equipos', icon: CollectionIcon, roles: ['Administrador', 'Colaborador'] },
+  { name: 'Equipos', path: '/equipos', icon: RectangleStackIcon, roles: ['Administrador', 'Colaborador'] },
   { name: 'Notificaciones', path: '/notificaciones', icon: BellIcon, roles: ['Administrador'] },
 ];
 

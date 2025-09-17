@@ -3,13 +3,23 @@ import { useAuthStore } from '@/stores/auth';
 
 import AppLayout from '@/layouts/AppLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
+import MapaTestView from '@/views/MapaTestView.vue';
 
 const routes = [
   {
+    path: '/mapa-test',
+    name: 'MapaTest',
+    component: MapaTestView,
+    meta: { requiresAuth: false }
+  },
+  {
     path: '/',
-    redirect: '/dashboard',
+    redirect: to => {
+      const authStore = useAuthStore();
+      return authStore.isAuthenticated ? '/dashboard' : '/login';
+    },
     component: AppLayout,
-    meta: { requiresAuth: true },
+    meta: { requiresAuth: false },
     children: [
       {
         path: 'dashboard',
@@ -54,6 +64,50 @@ const routes = [
         component: () => import('@/pages/notificaciones/index.vue'),
         meta: { roles: ['Administrador'] },
       },
+      {
+        path: 'espacios-fisicos',
+        name: 'EspaciosFisicos',
+        component: () => import('@/pages/espacios_fisicos/index.vue'),
+        meta: { roles: ['Administrador', 'Gestor'] },
+      },
+      {
+        path: 'actividades',
+        name: 'Actividades',
+        component: () => import('@/pages/actividades/index.vue'),
+      },
+      {
+        path: 'espacios-publicitarios',
+        name: 'EspaciosPublicitarios',
+        component: () => import('@/pages/espacios_publicitarios/index.vue'),
+      },
+      {
+        path: 'rentas-publicitarias',
+        name: 'RentasPublicitarias',
+        component: () => import('@/pages/rentas_publicitarias/index.vue'),
+        meta: { roles: ['Administrador', 'Cliente'] },
+      },
+      {
+        path: 'pagos',
+        name: 'Pagos',
+        component: () => import('@/pages/pagos/index.vue'),
+        meta: { roles: ['Administrador', 'Cliente'] },
+      },
+      {
+        path: 'categorias',
+        name: 'Categorias',
+        component: () => import('@/pages/categorias/index.vue'),
+        meta: { roles: ['Administrador', 'Gestor'] },
+      },
+      {
+        path: 'mapa',
+        name: 'Mapa',
+        component: () => import('@/pages/mapa/index.vue'),
+      },
+      {
+        path: 'mapa-navegacion',
+        name: 'MapaNavegacion',
+        component: () => import('@/pages/MapaNavegacionPage.vue'),
+      },
     ],
   },
   {
@@ -88,7 +142,7 @@ router.beforeEach((to, from, next) => {
     return next({ name: 'Login' });
   }
 
-  if (userRoles && !userRoles.includes(authStore.user.rol)) {
+  if (userRoles && authStore.user && !userRoles.includes(authStore.user.rol)) {
     return next({ name: 'Dashboard' }); // Redirect to a safe page
   }
 

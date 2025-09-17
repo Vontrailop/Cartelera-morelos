@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient1)"/>
+  
+  <!-- Music elements -->
+  <g transform="translate(200, 150)" fill="white" opacity="0.9">
+    <circle cx="-80" cy="0" r="40"/>
+    <rect x="-90" y="-30" width="20" height="60" rx="5" ry="5"/>
+    <line x1="-70" y1="-30" x2="-30" y2="-50" stroke="white" stroke-width="5"/>
+    
+    <circle cx="80" cy="0" r="40"/>
+    <rect x="70" y="-30" width="20" height="60" rx="5" ry="5"/>
+    <line x1="90" y1="-30" x2="130" y2="-50" stroke="white" stroke-width="5"/>
+    
+    <!-- Music notes -->
+    <g transform="translate(-150, -70)">
+      <ellipse cx="0" cy="0" rx="12" ry="8"/>
+      <line x1="12" y1="0" x2="12" y2="-40" stroke="white" stroke-width="3"/>
+      <line x1="12" y1="-40" x2="25" y2="-35" stroke="white" stroke-width="3"/>
+    </g>
+    
+    <g transform="translate(150, -50)">
+      <ellipse cx="0" cy="0" rx="12" ry="8"/>
+      <line x1="12" y1="0" x2="12" y2="-40" stroke="white" stroke-width="3"/>
+      <line x1="12" y1="-40" x2="25" y2="-35" stroke="white" stroke-width="3"/>
+    </g>
+  </g>
+  
+  <!-- Event title -->
+  <rect x="50" y="220" width="300" height="50" fill="rgba(0,0,0,0.5)" rx="5" ry="5"/>
+  <text x="200" y="250" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Festival de Música en Cuernavaca</text>
+</svg>

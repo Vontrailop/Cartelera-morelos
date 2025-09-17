@@ -1,0 +1,165 @@
+/* Estilos para el Mapa de Navegación */
+
+/* Estilos generales */
+.mapa-navegacion-container {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Mejoras para la vista de árbol */
+.tree-view {
+  min-height: 400px;
+}
+
+.node {
+  position: relative;
+}
+
+.node-content:hover {
+  box-shadow: 0 0 0 2px #4f46e5;
+  transform: translateY(-2px);
+}
+
+/* Líneas de conexión mejoradas */
+.children {
+  position: relative;
+}
+
+.children::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  height: 20px;
+  width: 2px;
+  background-color: #d1d5db;
+}
+
+.children .node::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  height: 20px;
+  width: 2px;
+  background-color: #d1d5db;
+}
+
+.children .node::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  height: 2px;
+  background-color: #d1d5db;
+}
+
+.children .node:first-child::after {
+  left: 50%;
+  width: 50%;
+}
+
+.children .node:last-child::after {
+  right: 50%;
+  width: 50%;
+}
+
+.children .node:only-child::after {
+  display: none;
+}
+
+/* Mejoras para la vista de flujo */
+.flow-diagram {
+  padding: 20px 0;
+}
+
+.flow-node:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.flow-arrow {
+  position: relative;
+}
+
+/* Mejoras para la vista de módulos */
+.module-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.module-card:hover .module-icon {
+  background-color: #4f46e5;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .tree-view {
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  
+  .flow-diagram {
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  
+  .node-content {
+    min-width: 100px;
+    padding: 8px;
+  }
+  
+  .node-label {
+    font-size: 0.75rem;
+  }
+  
+  .flow-node {
+    min-width: 100px;
+    padding: 8px;
+  }
+  
+  .flow-label {
+    font-size: 0.75rem;
+  }
+}
+
+/* Animaciones */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(79, 70, 229, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(79, 70, 229, 0);
+  }
+}
+
+.main-node .node-content {
+  animation: pulse 2s infinite;
+}
+
+/* Temas de color */
+.dark-theme .node-content {
+  background-color: #1f2937;
+  border-color: #374151;
+  color: #f3f4f6;
+}
+
+.dark-theme .main-node .node-content {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.dark-theme .flow-node {
+  background-color: #1f2937;
+  border-color: #374151;
+  color: #f3f4f6;
+}
+
+.dark-theme .module-card {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
