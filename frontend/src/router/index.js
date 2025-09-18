@@ -3,17 +3,17 @@ import { useAuthStore } from '@/stores/auth';
 
 import AppLayout from '@/layouts/AppLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
-import MapaTestView from '@/views/MapaTestView.vue';
+//import MapaTestView from '@/views/MapaTestView.vue';
+import LandingView from '@/views/LandingView.vue';
 
 const routes = [
   {
-    path: '/mapa-test',
-    name: 'MapaTest',
-    component: MapaTestView,
-    meta: { requiresAuth: false }
+    path: '/',
+    name: 'LandingView',
+    component: LandingView
   },
   {
-    path: '/',
+    path: '/main',
     redirect: to => {
       const authStore = useAuthStore();
       return authStore.isAuthenticated ? '/dashboard' : '/login';
